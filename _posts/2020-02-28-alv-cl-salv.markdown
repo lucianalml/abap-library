@@ -4,12 +4,13 @@ title:  "Fazendo uma ALV CL SALV"
 date:   2020-02-28 09:34:03 -0300
 categories: alv
 ---
-Hoje vou mostrar pra vocês como fazer uma linda ALV facil facil!
+Hoje vou mostrar pra vocês como fazer uma linda `ALV` facil facil! Existem vários jeitos de se criar uma ALV, os mais conhecidos são ALV OO `cl_gui_alv_grid`, `cl_salv_table` e `alv reuse`.
 
+Olha aqui como eu consigo fazer um [link maneiro][link-legal] sucesso das galaxias.
+
+[link-legal]: https://www.google.com/search?q=legal
 
 {% highlight abap %}
-
-// teste
 *--------------------------------------------------------------------*
 * Variáveis Globais
 *--------------------------------------------------------------------*
