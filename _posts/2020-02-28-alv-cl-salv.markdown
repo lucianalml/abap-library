@@ -4,8 +4,6 @@ title:  "Fazendo uma ALV CL SALV"
 date:   2020-02-28 09:34:03 -0300
 categories: alv
 ---
-Blog dedicado a organizar conteudos em ABAP
-
 ### Fazendo uma alv cl_salv_table
 
 {% highlight abap %}
