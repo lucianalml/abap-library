@@ -4,7 +4,8 @@ title:  "Fazendo uma ALV CL SALV"
 date:   2020-02-28 09:34:03 -0300
 categories: alv
 ---
-### Fazendo uma alv cl_salv_table
+Hoje vou mostrar pra vocês como fazer uma linda ALV facil facil!
+
 
 {% highlight abap %}
 
