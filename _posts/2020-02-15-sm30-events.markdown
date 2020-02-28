@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "SM30 Events"
+date:   2020-02-20 09:34:03 -0300
+categories: sm30
+---
+
+Fazendo uma sm30 com eventos horas:
+ 
+01​ SALVAR
+05​ NOVA_ENTRADA
+__​______________________________
+ 
+{% highlight abap %}
+
+*----------------------------------------------------------------------*
+***INCLUDE /PGTPA/LVPRVB_T08F01 .
+*----------------------------------------------------------------------*
+
+
+
+form nova_entrada.
+  data: vl_count  type i.
+* Valida novas entradas
+  select count(*)
+    from dd03l
+    into vl_count
+    where tabname = /pgtpa/vprvb_t08-tabela
+    and   fieldname = /pgtpa/vprvb_t08-campo.
+
+  if sy-subrc <> 0.
+    perform set_pf_status using 'ERROR'.
+    message e002(/pgtpa/proa_vb) with /pgtpa/vprvb_t08-campo /pgtpa/vprvb_t08-tabela.
+  endif.
+
+
+* Atualiza dados na inserção
+  /pgtpa/vprvb_t08-usuario = sy-uname.
+  /pgtpa/vprvb_t08-data = sy-datum.
+  /pgtpa/vprvb_t08-hora = sy-uzeit.
+endform.                    "NOVA_ENTRADA
+
+*&---------------------------------------------------------------------*
+*&      Form  SALVAR
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+form salvar.
+
+  data vl_index  like sy-tabix .
+  field-symbols <fl_prvb_t08> type /pgtpa/prvb_t08.
+
+* Atualiza dados na alteração
+  loop at total.
+    if <action> = 'U'.
+      read table extract with key total.
+      if sy-subrc eq  0.
+        vl_index = sy-tabix.
+      else.
+        clear vl_index.
+      endif.
+
+      assign total to <fl_prvb_t08> casting.
+      <fl_prvb_t08>-data = sy-datum.
+      <fl_prvb_t08>-hora = sy-uzeit.
+      <fl_prvb_t08>-usuario = sy-uname.
+      modify total.
+
+      check vl_index gt 0.
+      extract = total.
+      modify extract index vl_index.
+    endif.
+  endloop.
+  sy-subrc = 0.
+
+
+endform.                    "insere_log
+
+{% endhighlight %}
