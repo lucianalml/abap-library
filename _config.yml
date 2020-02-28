@@ -40,7 +40,7 @@ show_excerpts: true
 disqus:
   shortname: abap-library
 
-jekyll.environment: production
+#jekyll.environment: production
 
 # Exclude from processing.
 # The following items will not be processed, by default.
