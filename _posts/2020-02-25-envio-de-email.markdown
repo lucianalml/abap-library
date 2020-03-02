@@ -2,7 +2,8 @@
 layout: post
 title:  "Enviando email no ABAP"
 date:   2020-02-25 09:34:03 -0300
-categories: email
+categories: [abap]
+tags: [abap, email]
 ---
 Hoje vou mostrar pra vocês como enviar email via código.
 

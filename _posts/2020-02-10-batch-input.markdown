@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "SM30 Events"
+title:  "Batch input"
 date:   2020-02-20 09:34:03 -0300
-categories: sm30
+categories: [abap]
+tags: [abap, batch input]
 ---
 
 Olhe e aprenda como fazer um batch input.

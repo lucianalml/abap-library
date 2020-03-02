@@ -2,7 +2,7 @@
 layout: post
 title:  "SM30 Events"
 date:   2020-02-20 09:34:03 -0300
-categories: sm30
+categories: [abap]
 ---
 
 Fazendo uma sm30 com eventos horas:
