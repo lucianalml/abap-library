@@ -8,6 +8,10 @@ Hoje vou mostrar pra vocês como fazer uma linda `ALV` facil facil! Existem vár
 
 Olha aqui como eu consigo fazer um [link maneiro][link-legal] sucesso das galaxias.
 
+Olha como sua ALV vai ficar prontinha:
+
+![Screenshot](/assets/imagem-alv.png)
+
 <more>
 
 [link-legal]: https://www.google.com/search?q=legal
