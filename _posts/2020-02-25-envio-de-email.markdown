@@ -6,6 +6,8 @@ categories: email
 ---
 Hoje vou mostrar pra vocês como enviar email via código.
 
+<more>
+
 {% highlight abap %}
 REPORT  zteste.
 
