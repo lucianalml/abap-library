@@ -10,7 +10,7 @@ Olha aqui como eu consigo fazer um [link maneiro][link-legal] sucesso das galaxi
 
 Olha como sua ALV vai ficar prontinha:
 
-![Screenshot](/assets/imagem-alv.png)
+![Screenshot2]({{site.baseurl}}/assets/imagem-alv2.jpg)
 
 <more>
 
