@@ -4,15 +4,6 @@ title: Sobre
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Este blog foi criado com o objetivo de organizar uma biblioteca de códigos ABAP frequentemente utilizados, exemplos, dicas e tutoriais com os documentos que guardei ao longo de 8 anos trabalhando como ABAP.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Alguns desses códigos são antigos e aos poucos estou trabalhando em converte-los usando as boas práticas.
