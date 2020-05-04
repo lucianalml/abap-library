@@ -10,7 +10,9 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <!--<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>-->
+    <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    <p><i>Exemplos de códigos, manuais, boas práticas e outras coisas úteis na vida de uma abap</i></p>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
