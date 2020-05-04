@@ -8,6 +8,8 @@ tags: [abap, alv, report, oo]
 
 Esse relatório serve como template para criação de report usando orientação a objetos.
 
+<more>
+
 <script src="https://gist.github.com/lucianalml/13f21481d5958c40898ea4dbab04f7d1.js"></script>
 
 Resultado:

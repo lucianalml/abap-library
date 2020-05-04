@@ -8,6 +8,8 @@ tags: [abap, datatypes]
 
 Existem algumas funções para tratamento de datas. A função abaixo verifica se um periodo se sobrepoe a outro período.
 
+<more>
+
 {% highlight abap %}
 
     CALL FUNCTION 'TTE_CHK_DTRNG_DATERANGE'
