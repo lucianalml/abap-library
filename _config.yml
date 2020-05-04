@@ -30,6 +30,7 @@ url: "http://lucianalml.github.io" # the base hostname & protocol for your site,
 #twitter_username: lucianalml
 github_username:  lucianalml
 linkedin_username: luciana-lima-dev
+google_analytics: UA-165463844-1
 
 # Build settings
 theme: minima
@@ -40,8 +41,6 @@ show_excerpts: true
 
 disqus:
   shortname: abap-library
-
-#jekyll.environment: production
 
 # Exclude from processing.
 # The following items will not be processed, by default.
