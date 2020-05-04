@@ -36,7 +36,6 @@ plugins:
   - jekyll-feed
 
 show_excerpts: true
-excerpt_separator: <more>
 
 disqus:
   shortname: abap-library
