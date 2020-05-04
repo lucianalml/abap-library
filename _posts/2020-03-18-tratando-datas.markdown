@@ -6,9 +6,7 @@ categories: [abap]
 tags: [abap, datatypes]
 ---
 
-Existem algumas funções para tratamento de datas...
-
-A função abaixo verifica se um periodo se sobrepoe a outro período.
+Existem algumas funções para tratamento de datas. A função abaixo verifica se um periodo se sobrepoe a outro período.
 
 {% highlight abap %}
 
