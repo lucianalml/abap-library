@@ -1,0 +1,5 @@
+
+
+PARAMETERS:
+  p_alv    RADIOBUTTON GROUP gp1 USER-COMMAND tprel DEFAULT 'X',
+  p_arq    RADIOBUTTON GROUP gp1.
